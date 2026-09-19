@@ -24,7 +24,7 @@ export default function App() {
 
   return (
     <SafeAreaView style={styles.container}>
-      <StatusBar barStyle="light-content" backgroundColor="#1e5940" />
+      <StatusBar barStyle="light-content" backgroundColor="#182642" />
       <WebView
         ref={webViewRef}
         originWhitelist={['*']}
@@ -45,10 +45,10 @@ export default function App() {
 const styles = StyleSheet.create({
   container: {
     flex: 1,
-    backgroundColor: '#1e5940',
+    backgroundColor: '#182642',
   },
   webview: {
     flex: 1,
-    backgroundColor: '#1e5940',
+    backgroundColor: '#182642',
   },
 });
