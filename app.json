@@ -1,0 +1,27 @@
+{
+  "expo": {
+    "name": "Sudokuza",
+    "slug": "sudokuza",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "light",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#f0f2e9"
+    },
+    "assetBundlePatterns": ["**/*"],
+    "android": {
+      "package": "com.veenslay.sudokuza",
+      "versionCode": 1,
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#1e5940"
+      }
+    },
+    "web": {
+      "favicon": "./assets/favicon.ico"
+    }
+  }
+}
